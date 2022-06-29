@@ -1,6 +1,8 @@
 # Hugo theme hacker
 Hacker 简约风格主题，主要参考[https://github.com/VVelox/hugo-dusky-neon-potato]，个人博客使用，各位如果感兴趣，欢迎pr。
 
+![screenshot](https://raw.githubusercontent.com/hksanduo/hugo-theme-hacker/main/images/screenshot.png)
+
 ## Overview
 
 * Support for tags
