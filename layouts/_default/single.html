@@ -21,6 +21,8 @@
   <section id="js-article" class="p-article__body">
     {{ .Content }}
   </section>
+  {{ partial "copyright" .}}
+
   <footer>
     {{ with .Site.Params.disqus }}
     <div id="disqus_thread"></div>
@@ -56,4 +58,5 @@
     {{ partial "related.html" . }}
   </footer>
 </article>
+{{ partial "comments" . }}
 {{ partial "footer.html" . }}

@@ -291,3 +291,17 @@ blockquote {
 .c3-tooltip td {
   background-color: {{ .Param "colors.background" | default "#101010" }};
 }
+
+/* for archive page starts*/
+.post-archive {
+    font-size: 15px;
+    line-height: 2;
+    padding-bottom: .8em; 
+}
+.post-archive h2 {
+      margin: 0;
+      font: bold 25px / 1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; 
+}
+.post-archive .date {
+      padding-right: .7em; 
+}
